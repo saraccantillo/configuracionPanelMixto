@@ -1,0 +1,107 @@
+#horizontalInicio{
+    height: 5;
+    width: 100%;
+}
+
+#horizontalEntradas{
+    height: 9;
+}
+
+#widgetInterfaz{
+    background: #131c53;
+    height: 4;
+    width: 1fr; 
+}
+
+#labelNombreInterfaz{
+    height: 100%;
+}
+
+#horizontalCanales{
+    height: 30;
+    width: 100%;
+    margin-left: 1;
+    margin-right: 2;
+}
+
+#widgetFrecuencias{
+    background: #131c53;
+    height: 4;
+    width: 1fr;
+}
+
+.fuentePrecargada{
+    margin-top: 01;  
+}
+
+.displayVolumen{
+    width: 40%;
+    border: round #5439eb;
+}
+
+.horizontalVolumen{
+    width: 100%; 
+    align: center middle;
+}
+
+.horizontalCanalAtributes{
+    width: 100%;
+
+}
+
+TipoWidget{
+    width: 100%;
+    height: 20%;
+}
+
+FuenteWidget{
+    width: 100%;
+    height: 20%;
+}
+
+CanalWidget{
+    align: center middle;
+    height: 27;
+    width: 35;
+    margin-top: 1;
+    margin-right: 2;
+    border-right: round rgb(126, 126, 126);
+    border-bottom: round rgb(126, 126, 126);
+}
+
+EntradaWidget {
+    height: 8;
+    width: 21;
+    margin-top: 1;
+    margin-right: 2;
+    border-right: round rgb(126, 126, 126);
+    border-bottom: round rgb(126, 126, 126);         
+}
+
+VolumenWidget{
+    margin-top: 1;
+    width: 100%;
+    height: 25%;
+    align: center middle;
+}
+
+VolumenUp{
+    width: 50%;
+}
+
+VolumenDown{
+    width: 50%;
+}
+
+SoloWidget{
+    width: 33%;
+}
+
+MuteWidget{
+    width: 33%;
+    margin-right:0;
+}
+
+LinkWidget{
+    width: 33%;
+}
